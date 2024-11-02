@@ -34,4 +34,5 @@ def parse():
     #вывод каждого объекта из словаря построчно, а не в одну строку
     for comp in comps:
         print(comp['title'], 'TIME:', comp['time'], '\nhttps://www.krsk.kp.ru' + comp['link'], '\n')
+clear()
 parse()
